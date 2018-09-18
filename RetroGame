@@ -1,0 +1,41 @@
+Instalação
+Primeiro, instale o Ubuntu (16.04 LTS ou posterior) ou uma distro baseada no Debian, como o Linux Mint 17 / 18. Imagens ISO dispositivo USB. http://www.ubuntu.com/download/desktop
+
+Para executar o RetroPie-Setup, você deve ser um membro do grupo root / admin.
+
+Baixar RetroPie
+Atualize e atualize os pacotes APT existentes:
+
+
+sudo apt-get update && sudo apt-get upgrade
+Instale os pacotes necessários para o script de configuração do RetroPie:
+
+
+sudo apt-get install -y git dialog unzip xmlstarlet
+
+Baixe o último script de configuração do RetroPie:
+
+
+git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
+
+
+cd RetroPie-Setup
+O script é executado com:
+
+
+sudo ./retropie_setup.sh
+A tela deve se parecer com / similar neste momento:
+
+script retropie-setup 4-0-2
+
+Instalar o RetroPie
+Instalação Básica
+
+exemplo, NES, SNES, Sega Megadrive, 
+
+Configurar RetroPie
+EmulationStation pode ser executado a partir do terminal, digitando emulationstationno terminal.
+
+Você pode entrar em Configuração / Configuração e ativar o início automático como quiser.
+
+
